@@ -10,12 +10,12 @@
 namespace qqsfpm {
 
 void registerProxyRoleTypes() {
-    qmlRegisterUncreatableType<ProxyRole>("SortFilterProxyModel", 0, 2, "ProxyRole", "ProxyRole is an abstract class");
-    qmlRegisterType<JoinRole>("SortFilterProxyModel", 0, 2, "JoinRole");
-    qmlRegisterType<SwitchRole>("SortFilterProxyModel", 0, 2, "SwitchRole");
-    qmlRegisterType<ExpressionRole>("SortFilterProxyModel", 0, 2, "ExpressionRole");
-    qmlRegisterType<RegExpRole>("SortFilterProxyModel", 0, 2, "RegExpRole");
-    qmlRegisterType<FilterRole>("SortFilterProxyModel", 0, 2, "FilterRole");
+    qmlRegisterUncreatableType<ProxyRole>("Opal.SortFilterProxyModel", 1, 0, "ProxyRole", "ProxyRole is an abstract class");
+    qmlRegisterType<JoinRole>("Opal.SortFilterProxyModel", 1, 0, "JoinRole");
+    qmlRegisterType<SwitchRole>("Opal.SortFilterProxyModel", 1, 0, "SwitchRole");
+    qmlRegisterType<ExpressionRole>("Opal.SortFilterProxyModel", 1, 0, "ExpressionRole");
+    qmlRegisterType<RegExpRole>("Opal.SortFilterProxyModel", 1, 0, "RegExpRole");
+    qmlRegisterType<FilterRole>("Opal.SortFilterProxyModel", 1, 0, "FilterRole");
 }
 
 Q_COREAPP_STARTUP_FUNCTION(registerProxyRoleTypes)

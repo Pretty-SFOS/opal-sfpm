@@ -12,15 +12,15 @@
 namespace qqsfpm {
 
 void registerFiltersTypes() {
-    qmlRegisterUncreatableType<Filter>("SortFilterProxyModel", 0, 2, "Filter", "Filter is an abstract class");
-    qmlRegisterType<ValueFilter>("SortFilterProxyModel", 0, 2, "ValueFilter");
-    qmlRegisterType<IndexFilter>("SortFilterProxyModel", 0, 2, "IndexFilter");
-    qmlRegisterType<RegExpFilter>("SortFilterProxyModel", 0, 2, "RegExpFilter");
-    qmlRegisterType<RangeFilter>("SortFilterProxyModel", 0, 2, "RangeFilter");
-    qmlRegisterType<ExpressionFilter>("SortFilterProxyModel", 0, 2, "ExpressionFilter");
-    qmlRegisterType<AnyOfFilter>("SortFilterProxyModel", 0, 2, "AnyOf");
-    qmlRegisterType<AllOfFilter>("SortFilterProxyModel", 0, 2, "AllOf");
-    qmlRegisterUncreatableType<FilterContainerAttached>("SortFilterProxyModel", 0, 2, "FilterContainer", "FilterContainer can only be used as an attaching type");
+    qmlRegisterUncreatableType<Filter>("Opal.SortFilterProxyModel", 1, 0, "Filter", "Filter is an abstract class");
+    qmlRegisterType<ValueFilter>("Opal.SortFilterProxyModel", 1, 0, "ValueFilter");
+    qmlRegisterType<IndexFilter>("Opal.SortFilterProxyModel", 1, 0, "IndexFilter");
+    qmlRegisterType<RegExpFilter>("Opal.SortFilterProxyModel", 1, 0, "RegExpFilter");
+    qmlRegisterType<RangeFilter>("Opal.SortFilterProxyModel", 1, 0, "RangeFilter");
+    qmlRegisterType<ExpressionFilter>("Opal.SortFilterProxyModel", 1, 0, "ExpressionFilter");
+    qmlRegisterType<AnyOfFilter>("Opal.SortFilterProxyModel", 1, 0, "AnyOf");
+    qmlRegisterType<AllOfFilter>("Opal.SortFilterProxyModel", 1, 0, "AllOf");
+    qmlRegisterUncreatableType<FilterContainerAttached>("Opal.SortFilterProxyModel", 1, 0, "FilterContainer", "FilterContainer can only be used as an attaching type");
 }
 
 Q_COREAPP_STARTUP_FUNCTION(registerFiltersTypes)
