@@ -1,4 +1,8 @@
-!contains( CONFIG, c\+\+1[14] ): warning("SortFilterProxyModel needs at least c++11, add CONFIG += c++11 to your .pro")
+!contains( CONFIG, c\+\+1[14z] ): warning("SortFilterProxyModel needs at least c++11, add CONFIG += c++11 to your .pro")
+
+equals(QT_MAJOR_VERSION, 5):lessThan(QT_MINOR_VERSION, 9) {
+    DEFINES += qmlWarning=qmlInfo
+}
 
 INCLUDEPATH += $$PWD
 
