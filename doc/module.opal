@@ -28,7 +28,7 @@ briefDescription: QML module for using SortFilterProxyModel in Sailfish apps
 
 # description of this module: may use rich text and will be translated in
 # Opal Gallery. Line breaks can included with '\n' but should be avoided.
-description: This module provides an up-to-date and patched version of SortFilterProxyModel for QML (Qt 5.6).
+description: This module provides an up-to-date and patched version of SortFilterProxyModel for QML (old Qt 5).
 
 # attribution string for the whole module, in the same form as a SPDX
 # FileCopyrightText entry.

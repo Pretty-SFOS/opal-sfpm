@@ -1,22 +1,7 @@
 <!--
-SPDX-FileCopyrightText: 2023-2024 Mirian Margiani
+SPDX-FileCopyrightText: 2023-2025 Mirian Margiani
 SPDX-License-Identifier: GFDL-1.3-or-later
 -->
-
-# Template for new Opal modules
-
-To do:
-
-- [x] Create a local copy of the contents of this repository.
-- [x] Run `setup.sh` and follow the instructions.
-- [ ] Import your source code to `Opal/SortFilterProxyModel/` and write documentation.
-- [ ] Add an example to `README.md`.
-- [x] Update `release-module.sh`: if your module has no translations, set `cTRANSLATE=(Opal)` to `cTRANSLATE=()`
-- [ ] Remove this introduction from `README.md`.
-- [ ] Add screenshots to `doc/` and update `README.md` accordingly.
-- [ ] Run `./release-module.sh` to build docs and create a release bundle.
-
-<hr>
 
 # SortFilterProxyModel
 
@@ -24,7 +9,17 @@ QML module for using Pierre-Yves Siret's
 [SortFilterProxyModel](https://github.com/oKcerG/SortFilterProxyModel) in
 Sailfish apps
 
-This module provides an up-to-date and patched version of SortFilterProxyModel for QML (Qt 5.6).
+This module provides an up-to-date and patched version of SortFilterProxyModel for QML (old Qt 5).
+
+
+**To do:**
+
+- [ ] properly include existing documentation
+- [ ] import examples
+- [ ] include in gallery
+- [ ] release
+
+This module is already in use in some apps: [Weather](https://github.com/ichthyosaurus/harbour-meteoswiss), and others
 
 
 ## Usage
@@ -41,17 +36,7 @@ MyComponent {
 
 ## Screenshots
 
-Screenshots can be found in the [doc](doc/) directory.
-
-<!--
-| 1. | 2. |
-|-|-|
-| <img src="./doc/screenshot-01.webp" width="600" /> | <img src="./doc/screenshot-02.webp" width="600" /> |
-
-| 1. | 2. | 3. |
-|-|-|-|
-| <img src="./doc/screenshot-01.webp" width="600" /> | <img src="./doc/screenshot-02.webp" width="600" /> | <img src="./doc/screenshot-03.webp" width="600" /> |
--->
+This is a purely technical module.
 
 ## How to use
 
