@@ -10,3 +10,7 @@ License: GPL-3.0-or-later
 Files: doc/screenshot-*.webp
 Copyright: Screenshot Author
 License: CC-BY-SA-4.0
+
+Files: src/qqmlsortfilterproxymodel.cpp src/qqmlsortfilterproxymodel.h src/SortFilterProxyModel.pri src/filters/*.cpp src/filters/*.h src/proxyroles/*.cpp src/proxyroles/*.h src/sorters/*.cpp src/sorters/*.h
+Copyright: Copyright (c) 2016 Pierre-Yves Siret
+License: LicenseRef-MIT-SFPM
